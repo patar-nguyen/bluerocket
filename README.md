@@ -1,4 +1,4 @@
-# Authenticator
+# BlueRocket
 
 Authentication that allows users to register and login with an account.
 
