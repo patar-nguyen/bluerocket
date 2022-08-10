@@ -9,6 +9,6 @@ Authentication that allows users to register and login with an account.
 - iOS Simulator
 
 ## Screenshots
-![Login](https://github.com/patar-nguyen/rn-authenticator/blob/master/images/Login.png?raw=true width="200" height="300")
-![Register](https://github.com/patar-nguyen/rn-authenticator/blob/master/images/Register.png?raw=true =100x200)
-![Home](https://github.com/patar-nguyen/rn-authenticator/blob/master/images/Home.png?raw=true =100x200)
+![Home]<img src="/Users/patricknguyen/Documents/Projects/ReactNativeApps/authenticator/images/Home.png" width="100" height="200">
+![Login]<img src="/Users/patricknguyen/Documents/Projects/ReactNativeApps/authenticator/images/Login.png" width="100" height="200">
+![Register]<img src="/Users/patricknguyen/Documents/Projects/ReactNativeApps/authenticator/images/Register.png" width="100" height="200">
