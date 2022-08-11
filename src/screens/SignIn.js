@@ -37,7 +37,7 @@ const SignIn = () => {
   };
 
   const handlePhone = () => {
-    console.warn("Phone");
+    navigation.navigate('Phone');
   };
 
   const handleSignUp = () => {

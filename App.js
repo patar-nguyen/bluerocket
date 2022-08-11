@@ -9,6 +9,7 @@
  import SignIn from './src/screens/SignIn';
  import SignUp from './src/screens/SignUp';
  import Home from './src/screens/Home';
+ import Phone from './src/screens/Phone';
 
  const Stack = createNativeStackNavigator();
  
@@ -20,7 +21,9 @@
          <Stack.Navigator screenOptions={{headerShown: false}}>
            <Stack.Screen name="SignIn" component={SignIn} />
            <Stack.Screen name="SignUp" component={SignUp} />
-           <Stack.Screen name="Home" component={Home} /> 
+           <Stack.Screen name="Home" component={Home} />
+           <Stack.Screen name="Phone" component={Phone} /> 
+ 
          </Stack.Navigator>
      </NavigationContainer>
      </SafeAreaView>
