@@ -20,10 +20,10 @@ const styles = StyleSheet.create({
 
   },
   container_primary: {
-    backgroundColor: '#A7C7E7',
+    backgroundColor: '#DC143C',
   },
   container_secondary: {
-    backgroundColor: 'white',
+    backgroundColor: '#DC143C',
     marginVertical: -10
   },
   container_tertiary: {
@@ -33,10 +33,10 @@ const styles = StyleSheet.create({
     color: 'white',
   },
   text_secondary: {
-    color: 'black'
+    color: 'white'
   },
   text_tertiary: {
-    color: 'gray',
+    color: 'black',
   }
 })
 export default Button

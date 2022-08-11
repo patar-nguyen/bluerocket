@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image, Dimensions } from 'react-native';
-import Logo from '../../images/rocket.png';
-import Logo2 from '../../images/bluerocket.png';
+import Logo from '../../images/R.png';
+import Logo2 from '../../images/team-rocket.png';
 import { auth } from '../firebase/config';
 import Button from '../components/Button';
 import { useNavigation } from '@react-navigation/native';
@@ -24,8 +24,8 @@ const Home = () => {
       <Image source={Logo} style={styles.logo} resizeMode="contain" />
       <Image source={Logo2} style={styles.logo2} resizeMode="contain" />
 
-      <Text style={{fontSize: 24, alignSelf: 'center', color: 'white'}}>Welcome to Blue Rocket!</Text>
-      <Text style={{color: 'white'}}>You are logged in as: {auth.currentUser?.email}</Text>
+      <Text style={{fontSize: 24, alignSelf: 'center', color: 'black'}}>Welcome to Team Rocket!</Text>
+      <Text style={{color: 'black'}}>You are logged in as: {auth.currentUser?.email}</Text>
       <Button 
         text="Sign Out" 
         onPress={handleSignOut} 
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
   root: {
     alignItems: 'center',
     padding: 20,
-    backgroundColor: '#191970',
+    backgroundColor: '#F5F5F5',
     height: Dimensions.get('window').height,
     width: Dimensions.get('window').width,
   },
@@ -55,16 +55,6 @@ const styles = StyleSheet.create({
     height: '40%',
     maxHeight: 200,
     marginTop: -100,
-  },
-  input: {
-    backgroundColor: 'white',
-    width: '100%',
-    borderColor: '#808080',
-    borderRadius: 5,
-    borderWidth: 1,
-    paddingHorizontal: 10,
-    paddingVertical: 10,
-    marginVertical: 5,
   },
 });
 

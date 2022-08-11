@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, ScrollView, Text, TextInput, Image, StyleSheet, useWindowDimensions, Dimensions, secureTextEntry } from 'react-native';
-import Logo from '../../images/rocket.png';
-import Logo2 from '../../images/bluerocket.png';
+import Logo from '../../images/R.png';
+import Logo2 from '../../images/team-rocket.png';
 import Button from '../components/Button';
 import { useNavigation } from '@react-navigation/native';
 import { auth } from '../firebase/config';
@@ -68,9 +68,9 @@ const SignIn = () => {
         />
 
         <View style={{flexDirection: 'row', paddingVertical: 20}}>
-          <View style={{backgroundColor: 'white', height: 2, flex: 1, alignSelf: 'center'}} />
-          <Text style={{alignSelf:'center', paddingHorizontal:5, fontSize: 15, color: 'white' }}>or</Text>
-          <View style={{backgroundColor: 'white', height: 2, flex: 1, alignSelf: 'center'}} />
+          <View style={{backgroundColor: 'black', height: 2, flex: 1, alignSelf: 'center'}} />
+          <Text style={{alignSelf:'center', paddingHorizontal:5, fontSize: 15, color: 'black' }}>or</Text>
+          <View style={{backgroundColor: 'black', height: 2, flex: 1, alignSelf: 'center'}} />
         </View>
 
       
@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
   root: {
     alignItems: 'center',
     padding: 20,
-    backgroundColor: '#191970',
+    backgroundColor: '#F5F5F5',
     height: Dimensions.get('window').height,
     width: Dimensions.get('window').width,
   },
